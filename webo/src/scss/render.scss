@@ -1,0 +1,29 @@
+.main {
+    margin:90px 0px;
+  .card-group {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    .card-collector {
+      display: flex;
+      justify-self: space-between;
+      gap: 25px;
+      flex-wrap: wrap;
+
+      .card {
+        max-width: 250px;
+        height: auto;
+        img {
+          width: 200px;
+          height: 250px;
+        }
+        h1 {
+          font-size: 20px;
+        }
+        h2 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
