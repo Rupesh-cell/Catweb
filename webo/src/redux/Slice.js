@@ -8,6 +8,8 @@ const cartSlice = createSlice({
     reducers: {
         add() {},
         delete() {},
+        update() {},
     },
 
 })
+//jdmfn
